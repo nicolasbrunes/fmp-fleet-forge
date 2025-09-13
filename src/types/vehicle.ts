@@ -4,5 +4,6 @@ export interface Vehicle {
   model: string;
   color: string;
   owner: string;
+  phone: string;
   type: 'car' | 'motorcycle';
 }
