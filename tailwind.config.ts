@@ -47,6 +47,28 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // FMP Brand Colors
+        fmp: {
+          blue: "hsl(var(--primary))",
+          pink: "hsl(var(--secondary))",
+          purple: "hsl(var(--purple))",
+          lightblue: "hsl(var(--accent))",
+          green: "hsl(var(--success))",
+          yellow: "hsl(var(--warning))",
+          red: "hsl(var(--destructive))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        purple: {
+          DEFAULT: "hsl(var(--purple))",
+          foreground: "hsl(var(--purple-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
